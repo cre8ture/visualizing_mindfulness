@@ -1,5 +1,6 @@
 import "./styles.css";
-import Particles from "./components/particles/particles";
+import {App} from "./components/particles/particles";
+
 export default function BreathingBlob() {
   return (
     <>
@@ -19,7 +20,7 @@ export default function BreathingBlob() {
       </form>
       <div className="blob">
         <br />
-        <Particles />
+        <App />
       </div>
     </>
   );

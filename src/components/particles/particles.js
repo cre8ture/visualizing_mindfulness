@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-export default App = () => {
+const App = () => {
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
@@ -97,3 +97,5 @@ export default App = () => {
     />
   );
 };
+
+export { App }; // Export the App component as a named export
